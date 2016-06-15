@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main.HubActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_search"
+        android:title="Search" />
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/filter"
+        android:title="action_filter"
+        app:showAsAction="ifRoom"/>
+</menu>

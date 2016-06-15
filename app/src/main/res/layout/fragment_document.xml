@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/drive_file_text_display"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="top|left"
+        android:inputType="textCapSentences" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/load_button_text"
+            android:id="@+id/load_button"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/refresh_button_text"
+            android:id="@+id/refresh_button"
+            android:layout_weight="1"
+            style="?android:attr/buttonStyleSmall" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_button_text"
+            android:id="@+id/save_button"
+            android:layout_weight="1"
+            style="?android:attr/buttonStyleSmall" />
+    </LinearLayout>
+
+</LinearLayout>
